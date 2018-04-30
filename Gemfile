@@ -12,6 +12,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'aws-sdk', '~> 2.5', '>= 2.5.5'
 end
 
 gem 'puma', '~> 3.11'
