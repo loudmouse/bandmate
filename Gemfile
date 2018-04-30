@@ -12,7 +12,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'aws-sdk', '~> 2.5', '>= 2.5.5'
 end
 
 gem 'puma', '~> 3.11'
@@ -70,4 +69,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.2'
 gem 'paperclip'
-gem 'aws-sdk', '~> 2.5', '>= 2.5.5'
+gem 'aws-sdk'
