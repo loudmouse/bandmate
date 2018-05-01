@@ -68,5 +68,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.2'
-gem 'paperclip', '~> 5.2.0'
-gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'paperclip'
+gem 'aws-sdk'

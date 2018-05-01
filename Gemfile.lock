@@ -774,7 +774,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk (~> 3.0, >= 3.0.1)
+  aws-sdk
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15, < 4.0)
@@ -783,7 +783,7 @@ DEPENDENCIES
   devise (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
-  paperclip (~> 5.2.0)
+  paperclip
   pg
   puma (~> 3.11)
   rails (~> 5.2.0)
