@@ -11,13 +11,13 @@
 
   <body>
     <% if alert %>
-      <p class="alert">
-        <%= alert %>
-      </p>
+      <div id="notice_wrapper">
+        <p class="alert"><%= alert %></p>
+      </div>
     <% elsif notice %>
-      <p class="notice">
-        <%= notice %>
-      </p>
+      <div id="notice_wrapper">
+        <p class="notice"><%= notice %></p>
+      </div>
     <% end %>
 
     <header id="main_header" class="cf">
@@ -40,5 +40,16 @@
     </header>
 
     <%= yield %>
+
+    <script>
+    	$(document).ready(function(){
+    		setTimeout(function() {
+    			$('#notice_wrapper').fadeOut("slow", function() {
+    				$this.remove();
+    			});
+    		}, 2500 );
+    	});
+    </script>
+
   </body>
 </html>
