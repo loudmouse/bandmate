@@ -28,7 +28,7 @@
             <% unless podcast_signed_in? %>
               <li><%= link_to "Bands", podcasts_path %></li>
               <li><%= link_to "Sign In", new_podcast_session_path %></li>
-              <li><%= link_to "Create a Podcast", new_podcast_registration_path %></li>
+              <li><%= link_to "Add a Band", new_podcast_registration_path %></li>
             <% else %>
               <li><%= link_to "Dashboard", root_path %></li>
               <li><%= link_to "Bands", podcasts_path %></li>
